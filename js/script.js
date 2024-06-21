@@ -5,6 +5,10 @@ function mostrarDataHora(){
 
     document.getElementById('date').innerText = date.toLocaleString();
 }
-    
+mostrarDataHora();
 
-mostrarDataHora();  
+function alterarNomeParaMaiusculo(){
+    const nome = document.getElementById('alteracao');
+    nome.innerText = nome.innerText.toUpperCase();
+}
+alterarNomeParaMaiusculo();
